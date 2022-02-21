@@ -1,0 +1,61 @@
+.subtitulo1{
+    margin-left: 230px;
+    font-size: 35px;
+}
+
+.divisoria{
+    margin-left: 230px;
+    margin-right: 230px;
+    color: rgb(19, 18, 18);
+}
+
+.form-produto{
+    margin-left: 230px;
+}
+
+.div-form{
+    margin-top: 5px;
+}
+
+.id-form{
+    font-size: 18px;
+    width: 50px;
+}
+
+.produto-form{
+    font-size: 18px;
+}
+
+.quantidade-form{
+    font-size: 18px;
+}
+
+.data-fab-form{
+    font-size: 18px;
+}
+
+.data-val-form{
+    font-size: 18px;
+}
+
+.label{
+    font-size: 20px;
+    color: rgb(82, 79, 79);
+}
+
+.button-form{
+    height: 40px;
+    width: 75px;
+    margin-top: 5px;
+    background: rgba(43, 140, 231, 0.897);
+    border: none;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-form:hover{
+    background-color: rgb(113, 214, 214);
+    color: rgb(63, 57, 57);
+}

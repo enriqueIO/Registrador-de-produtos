@@ -1,0 +1,25 @@
+.table-produtos{
+    margin-left: 230px;
+}
+
+.th-produto{ 
+    font-size: 15px;
+    padding: 25px;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+    background-color: #ccc;
+}
+
+.tbody-produto{
+    font-size: 15px;
+}
+
+.filtro-input{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#label-filtro{
+    margin-left: 230px;
+}

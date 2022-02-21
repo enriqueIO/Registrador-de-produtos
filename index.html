@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registrador</title>
+
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/tabela.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/erros.css">
+    <link rel="stylesheet" href="css/filtro.css">
+  
+  </head>
+  
+  <body>
+    
+    <header class="cabecalho1">
+        
+        <img class="titulo1-box" src="img/Box.png">
+        <h3 class="titulo1">Registrador</h3>
+    
+    </header>
+
+    <section class="sec-form">
+        
+        <h2 class="subtitulo1">Registre seus produtos</h2>
+        
+        <hr class="divisoria">
+
+        <form class="form-produto">
+            
+            <div class="div-form">
+
+             <label class="label" for="id">Id: </label>
+             <input class="id-form" name="id" type="text" placeholder="Id" maxlength="20">   
+             
+             <label class="label" for="produto">Produto: </label>
+             <input class="produto-form" name="produto" maxlength="20" type="text" placeholder="Produto">
+            
+             <label class="label" for="quantidade">Quantidade: </label>
+             <input class="quantidade-form" name="quantidade" type="number" placeholder="Quantidade">
+
+            </div>
+            
+            <div class="div-form">
+
+             <label class="label" for="data-fabricacao">Data de fabricação: </label>
+             <input class="data-fab-form" name="datafabricacao" min="2021/01/01" max="2030/01/01" type="date" placeholder="Data de fabricação">
+             
+             <label class="label" for="data-validade">Data de validade: </label>
+             <input class="data-val-form" name="datavalidade" min="2021/01/02" max="2030/01/01" type="date" placeholder="Data de validade">
+
+            </div>
+            
+            <button class="button-form" type="submit">Enviar</button>
+
+        </form>
+
+    </section>
+
+    <main>
+        
+      <h2 class="subtitulo1">Meus produtos</h2>
+      
+      <hr class="divisoria">
+      
+      <div>
+          <span class="aviso-erro-nome"></span>
+      </div>
+      
+      <div>
+          <span class="aviso-erro-quantidade"></span>
+      </div>
+      
+      <label id="label-filtro" class="label" for="filtragem">Pesquisar: </label>
+      <input type="text" class="filtro-input" name="filtro" placeholder="Pesquise pelo nome do produto">
+
+      <table class="table-produtos">
+          
+          <thead class="thead-produto">
+           <tr>
+            <th class="th-produto">Id</th>
+            <th class="th-produto">Produto</th>
+            <th class="th-produto">Quantidade</th>
+            <th class="th-produto">Data de fabricação</th>
+            <th class="th-produto">Data de validade</th>
+           </tr>
+          </thead>
+
+          <tbody class="tbody-produto">
+              
+          </tbody>
+
+      </table>
+  
+    </main>
+
+  </body>
+    
+    <script type="text/javascript" src="js/botao.js"></script>
+    <script type="text/javascript" src="js/funcoes.js"></script>
+    <script type="text/javascript" src="js/filtragem.js"></script>
+    <script type="text/javascript" src="js/removerProduto.js"></script>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family:  "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.titulo1-box{
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.titulo1{
+    text-align: center;
+    font-size: 38px;
+    color: rgb(63, 62, 62);
+}
+
+.cabecalho1{
+    display: flex;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
